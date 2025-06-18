@@ -1,0 +1,44 @@
+{
+  "title": "AquaSense",
+  "date": "2024-10-5",
+  "excerpt": "An IoT-powered system for betta fish water quality monitoring, engineered to ensure optimal health through continuous temperature tracking. It uses a DS18B20 sensor for real-time data, logging to Google Sheets, and providing LED alerts for proactive water management.",
+  "thumbnail": "/projects/iot1.png",
+  "images": [
+    {
+      "src": "/projects/iot2.png",
+      "alt": "AquaSense"
+    },
+    {
+      "src": "/projects/iot3.png",
+      "alt": "AquaSense"
+    }
+  ],
+  "liveLink": "",
+  "repoLink": "",
+  "colors": ["#0B2F9F", "#C7FFD8"],
+  "techStack": [
+    {
+      "title": "EPS32",
+      "info": "a tiny, low-cost computer chip with built-in Wi-Fi and Bluetooth. It's perfect for IoT projects, letting devices connect to the internet, read sensors, and be controlled wirelessly.",
+      "link": "https://www.espressif.com/en/products/socs/esp32"
+    },
+    {
+      "title": "Arduino",
+      "info": "an easy-to-use electronics platform (boards and software) for building interactive projects. It helps beginners control sensors and outputs for things like robotics or smart home devices.",
+      "link": "https://www.arduino.cc/"
+    },
+    {
+      "title": "App Script",
+      "info": "a cloud-based JavaScript platform that automates tasks and extends features across Google Workspace apps like Sheets and Gmail. It lets you customize and supercharge your Google workflow with code.",
+      "link": "https://developers.google.com/apps-script"
+    },
+    {
+      "title": "Line API Message",
+      "info": "The LINE Messaging API allows developers to send and receive messages to and from LINE users programmatically. It's used to create bots and automated systems that interact with users directly on the LINE messaging app.",
+      "link": "https://developers.line.biz/en/docs/messaging-api/"
+    }
+  ],
+  "challenge": "The core challenge was to develop a reliable IoT system for continuous betta fish water temperature monitoring, directly addressing the critical impact of water quality on their health and vibrant appearance. Key hurdles included ensuring precise temperature measurement with the DS18B20 sensor, establishing seamless data transmission to Google Sheets, and designing intuitive LED indicators for actionable water status alerts. The goal was to transform complex environmental factors into simple, real-time insights for better fish care.",
+  "solution": "The solution is an IoT-powered Betta Fish Water Quality Monitoring System, designed to provide continuous, real-time insights into aquarium conditions. It employs a DS18B20 waterproof temperature sensor for accurate data acquisition, which is then seamlessly transmitted to Google Sheets for ongoing record-keeping and analysis. A distinct feature is the LED indicator system, which visually alerts users to optimal water conditions or the need for a water change. This system empowers users with proactive control over water quality, ensuring optimal betta health and paving the way for future smart aquarium technologies.",
+  "comingSoon": false
+}

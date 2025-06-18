@@ -1,0 +1,39 @@
+{
+  "title": "Liverpool jerseys RPA",
+  "date": "2024-10-13",
+  "excerpt": "an automates Nike's pre-order management for Liverpool team jerseys, from collecting orders via Microsoft Forms and verifying payments, to dynamic status updates and auto-cancellations. It ensures seamless communication with automated email notifications and provides real-time insights through a Power BI dashboard, significantly boosting efficiency and accuracy.",
+  "thumbnail": "/projects/rpa1.png",
+  "images": [
+    {
+      "src": "/projects/rpa2.png",
+      "alt": "Nike RPA"
+    },
+    {
+      "src": "/projects/rpa3.png",
+      "alt": "Nike RPA"
+    }
+  ],
+  "liveLink": "https://www.youtube.com/watch?v=8yDLEk7CUr4&t=1260s",
+  "repoLink": "",
+  "colors": ["#bd1c1c", "#ffffff"],
+  "techStack": [
+    {
+      "title": "Microsoft Power Automate",
+      "info": "an automate repetitive tasks by creating workflows between different apps and services. Think of it as a digital assistant that connects your software to do things automatically, like saving email attachments or sending notifications.",
+      "link": "https://www.microsoft.com/th-th/power-platform/products/power-automate"
+    },
+    {
+      "title": "Microsoft Excel",
+      "info": "a spreadsheet program used for organizing, calculating, and visualizing data in tables. It's your go-to tool for managing numbers, creating charts, and doing basic data analysis.",
+      "link": "https://www.microsoft.com/th-th/microsoft-365/excel"
+    },
+    {
+      "title": "Microsoft Power BI",
+      "info": "a business intelligence tool that turns raw data into interactive dashboards and reports. It helps you analyze large datasets, spot trends, and make informed decisions with clear visualizations.",
+      "link": "https://www.microsoft.com/en-us/power-platform/products/power-bi"
+    }
+  ],
+  "challenge": "The \"Nike RPA Pre-order Automation Order Management\" project's core challenge was automating the entire lifecycle of Liverpool team jersey pre-orders. This involved ensuring precision in data collection and payment verification, mastering dynamic order status management with auto-cancellation, and maintaining seamless customer communication via automated emails. The key was to deliver unwavering reliability and real-time visibility through a Power BI dashboard, all to maximize efficiency during high-volume periods.",
+  "solution": "The solution is an RPA-powered Pre-order Automation System for Nike's Liverpool team jerseys, built to resolve the complexities of manual order management. This system automates the entire pre-order lifecycle, from collecting order data via Microsoft Forms and processing payment verifications to dynamically managing order statuses with automated email notifications at each step. It also features auto-cancellation capabilities and delivers real-time order insights through a Power BI dashboard, significantly boosting operational efficiency, accuracy, and customer communication while minimizing manual intervention.",
+  "comingSoon": false
+}

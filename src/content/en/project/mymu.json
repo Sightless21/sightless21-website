@@ -1,21 +1,21 @@
 {
-  "title": "MyMu",
+  "title": "UX/UI Design MyMu",
   "date": "2024-10-20",
   "excerpt": "An intuitive digital fortune-telling platform designed through UX/UI to provide accessible guidance and comfort. It features diverse readings, robust astrologer search/review, and seamless appointments/payments, alongside tools for astrologers to display expertise, manage schedules, and boost visibility for a trusted, personalized experience.",
   "thumbnail": "/projects/mymu1.png",
   "images": [
     {
       "src": "/projects/mymu2.png",
-      "alt": "Interprefy Website"
+      "alt": "MyMu"
     },
     {
       "src": "/projects/mymu3.png",
-      "alt": "Interprefy Website"
+      "alt": "MyMu"
     }
   ],
   "liveLink": "https://www.figma.com/proto/urWUrUr7E64QQlQyo9THML/Paper-Wireframe-MyMu?node-id=7698-2764&starting-point-node-id=7798%3A6393&t=YpUkxOnaGaesDRu3-1",
   "repoLink": "",
-  "colors": ["#f0f4f8", "#FF5D22"],
+  "colors": ["#3d0066", "#97dffc"],
   "techStack": [
     {
       "title": "Figma",

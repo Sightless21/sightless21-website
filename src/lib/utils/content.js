@@ -66,6 +66,7 @@ const transformBlogContent = (originalContent, locale, slug) => {
 		date: originalContent.date,
 		excerpt: originalContent.excerpt,
 		author: originalContent.author,
+		thumbnail: originalContent.thumbnail,
 		image: originalContent.image,
 		imageAlt: originalContent.imageAlt,
 		language: originalContent.language,
