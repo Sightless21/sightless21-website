@@ -59,8 +59,8 @@ export function dynamicFontSize(lang: Language, variant: FontSizeVariant = 'defa
 			ja: '[&>a]:text-[14vw] md:[&>a]:text-[7vw]'
 		},
 		nameproject: {
-			en: '[&>a]:text-[16vw] md:[&>a]:text-[7vw] ',
-			ja: '[&>a]:text-[14vw] md:[&>a]:text-[7vw]'
+			en: '[&>a]:text-4xl sm:[&>a]:text-9xl md:[&>a]:text-[7vw]',
+			ja: '[&>a]:text-3xl sm:[&>a]:text-5xl md:[&>a]:text-[7vw]'
 		},
 		blog: {
 			en: '[&>a]:text-[16vw] md:[&>a]:text-[5vw] ',
@@ -75,8 +75,9 @@ export function dynamicFontSize(lang: Language, variant: FontSizeVariant = 'defa
 			ja: 'text-base'
 		}
 	};
-
-	return sizeMaps[variant][lang] || sizeMaps.default[lang];
+	// Ensure that if the variant doesn't exist, it falls back to 'default'
+	const selectedVariant = sizeMaps[variant] ? variant : 'default';
+	return sizeMaps[selectedVariant][lang] || sizeMaps.default[lang];
 }
 
 export function dynamicLeading(lang: Language): string {

@@ -25,7 +25,7 @@
 	}
 </script>
 
-<section class={`${dynamicFont(lang)} flex-1 text-balance md:py-16`}>
+<section class={`${dynamicFont(lang)} flex-1 text-balance md:py-16 mb-10`}>
 	<ul role="navigation" class="space-y-10">
 		{#each collections as collection, index}
 			<li
