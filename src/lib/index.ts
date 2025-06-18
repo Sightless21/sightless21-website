@@ -63,8 +63,8 @@ export function dynamicFontSize(lang: Language, variant: FontSizeVariant = 'defa
 			ja: '[&>a]:text-3xl sm:[&>a]:text-5xl md:[&>a]:text-[7vw]'
 		},
 		blog: {
-			en: '[&>a]:text-[16vw] md:[&>a]:text-[5vw] ',
-			ja: '[&>a]:text-[14vw] md:[&>a]:text-[5vw]'
+			en: '[&>a]:text-[14vw] md:[&>a]:text-[5vw] ',
+			ja: '[&>a]:text-[13vw] md:[&>a]:text-[5vw]'
 		},
 		body: {
 			en: 'text-base md:text-lg',
