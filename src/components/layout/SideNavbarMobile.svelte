@@ -41,7 +41,7 @@
 			easing: (t) => t * t * t
 		}}
 		class={cn(
-			'animate-fade-in-down bg-background animate-delay-700 relative z-50 flex h-14 w-full items-center justify-between gap-5 px-10 text-sm md:hidden',
+			'animate-fade-in-down bg-background animate-delay-700 z-50 flex h-14 w-full items-center justify-between gap-5 px-10 text-sm md:hidden sticky top-0',
 			className
 		)}
 		id="nav"
