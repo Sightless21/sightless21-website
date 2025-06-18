@@ -1,0 +1,44 @@
+{
+  "title": "Tasktify",
+  "date": "2024-10-15",
+  "excerpt": "An intuitive mobile task management application engineered with React Native, Redux, MUI, and Expo to empower users in efficiently organizing their daily lives. It features robust daily task recording, real-time activity status tracking, a clear monthly calendar view, and smart task categorization, complemented by customizable themes for a personalized experience.",
+  "thumbnail": "/projects/taskify1.png",
+  "images": [
+    {
+      "src": "/projects/taskify2.png",
+      "alt": "Explorer Photo Tours Website"
+    },
+    {
+      "src": "/projects/taskify3.png",
+      "alt": "Explorer Photo Tours Website"
+    }
+  ],
+  "liveLink": "",
+  "repoLink": "https://github.com/tomamac/Taskify",
+  "colors": ["#16423C","#C4DAD2"],
+  "techStack": [
+    {
+      "title": "React Native",
+      "info": "A framework by Meta (Facebook) for building native mobile apps (iOS and Android) using JavaScript and React. It allows you to write code once and deploy it on both platforms, saving time and effort compared to writing separate native codebases.",
+      "link": "https://reactnative.dev/"
+    },
+    {
+      "title": "Redux",
+      "info": "A state management library for JavaScript applications. It provides a predictable way to manage and update application data (state) in a single, centralized \"store\". This makes it easier to track changes, debug, and ensure data consistency across complex applications, especially large React or React Native apps.",
+      "link": "https://redux.js.org/"
+    },
+    {
+      "title": "MUI",
+      "info": "A popular React UI component library that implements Google's Material Design. It offers a comprehensive set of pre-built, production-ready components (like buttons, forms, navigation bars) that are styled according to Material Design guidelines. This speeds up development and ensures a consistent, modern look and feel for your application.",
+      "link": "https://mui.com/"
+    },
+    {
+      "title": "Expo",
+      "info": "open-source framework and platform built on top of React Native. It simplifies and accelerates React Native development by providing a set of tools and services. Expo allows you to quickly get started, run your app on real devices without complex setups (like Xcode or Android Studio), and access many native device features through its SDK, often without needing to write any native code.",
+      "link": "https://expo.dev/"
+    }
+  ],
+  "challenge": "Developing \"Taskify\" as part of a 5-person team presented distinct hurdles. The primary challenge involved rapidly mastering new mobile development technologies, specifically integrating frameworks like React Native and Redux to build a robust and seamless application. This steep learning curve, combined with the necessity of efficiently managing complex team collaboration through GitHub for concurrent front-end and backend development, added layers of complexity. Ultimately, the goal was to deliver a comprehensive and high-quality application within tight deadlines, demanding agile problem-solving and strong coordination from the entire team.",
+  "solution": "The solution is Taskify, a comprehensive and intuitive mobile task management application built using React Native, Redux, MUI, and Expo. Designed to streamline daily activities, Taskify empowers users with features such as daily task recording, real-time activity status tracking, a clear monthly calendar view, and smart task categorization, all complemented by customizable themes. This robust platform directly addresses the complexities of personal organization, offering users an efficient and user-friendly tool to manage their tasks effectively.",
+  "comingSoon": false
+}

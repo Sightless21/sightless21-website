@@ -1,0 +1,44 @@
+{
+  "title": "Account Management",
+  "date": "2025-03-15",
+  "excerpt": "A secure internal web platform developed with Next.js, MongoDB, Prisma, and Shadcn. It centralizes applicant tracking, Kanban project management, and expense reimbursement, reducing HR's operational time by 35% with superior UI/UX and robust security.",
+  "thumbnail": "/projects/accmanagement1.png",
+  "images": [
+    {
+      "src": "/projects/accmanagement2.png",
+      "alt": "Account Management Web"
+    },
+    {
+      "src": "/projects/accmanagement3.png",
+      "alt": "Account Management Web"
+    }
+  ],
+  "liveLink": "",
+  "repoLink": "https://github.com/Sightless21/Account-management",
+  "colors": ["#0a2342", "#20fc8f"],
+  "techStack": [
+    {
+      "title": "Next.js",
+      "info": "Next.js is a React framework that helps you build fast web applications by handling things like server-side rendering and routing. Think of it as a supercharger for your React apps.",
+      "link": "https://nextjs.org/"
+    },
+    {
+      "title": "MongoDB",
+      "info": "MongoDB is a NoSQL database that stores data in flexible, JSON-like documents. It's great for handling large amounts of data, especially when that data isn't rigidly structured, and it scales very well.",
+      "link": "https://www.mongodb.com/"
+    },
+    {
+      "title": "Prisma",
+      "info": "Prisma is a type-safe ORM (Object-Relational Mapper). It lets you talk to your database using easy-to-understand JavaScript/TypeScript code instead of raw SQL. It also helps manage your database changes (migrations) and lets you browse your data visually.",
+      "link": "https://www.prisma.io/"
+    },
+    {
+      "title": "Shadcn",
+      "info": "Shadcn/ui isn't a traditional component library it's a collection of reusable UI components (like buttons, forms, etc.) that you copy and paste directly into your project. It's built on Radix UI for accessibility and Tailwind CSS for styling, giving you full control and customization.",
+      "link": "https://ui.shadcn.com/"
+    }
+  ],
+  "challenge": "As a Co-op Program intern, I was part of a six-person team tasked with developing this internal web application. My project was ultimately selected as the best among the group. The core challenge involved building a platform for applicant management, a Kanban project board, and expense reimbursement, demanding strong technical skills, user experience focus, and efficient problem-solving.",
+  "solution": "The Account Management project significantly improves internal operations through diverse features. It streamlines inefficient applicant management and complex expense reimbursements, while also boosting project visibility with a Kanban board and enhancing data security. Critically, it has increased HR's operational efficiency, cutting their time by an impressive 35%.",
+  "comingSoon": false
+}

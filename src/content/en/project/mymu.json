@@ -1,0 +1,34 @@
+{
+  "title": "MyMu",
+  "date": "2024-10-20",
+  "excerpt": "An intuitive digital fortune-telling platform designed through UX/UI to provide accessible guidance and comfort. It features diverse readings, robust astrologer search/review, and seamless appointments/payments, alongside tools for astrologers to display expertise, manage schedules, and boost visibility for a trusted, personalized experience.",
+  "thumbnail": "/projects/mymu1.png",
+  "images": [
+    {
+      "src": "/projects/mymu2.png",
+      "alt": "Interprefy Website"
+    },
+    {
+      "src": "/projects/mymu3.png",
+      "alt": "Interprefy Website"
+    }
+  ],
+  "liveLink": "https://www.figma.com/proto/urWUrUr7E64QQlQyo9THML/Paper-Wireframe-MyMu?node-id=7698-2764&starting-point-node-id=7798%3A6393&t=YpUkxOnaGaesDRu3-1",
+  "repoLink": "",
+  "colors": ["#f0f4f8", "#FF5D22"],
+  "techStack": [
+    {
+      "title": "Figma",
+      "info": "A cloud-based design and prototyping tool. It's widely used by UI/UX designers, product managers, and developers for creating, collaborating on, and testing digital product designs (like websites and mobile apps).",
+      "link": "https://www.figma.com"
+    },
+    {
+      "title": "Maze",
+      "info": "a user testing and research platform. It helps teams validate their designs and gather actionable insights by observing how real users interact with prototypes or live products.",
+      "link": "https://maze.co/"
+    }
+  ],
+  "challenge": "the challenge was to redefine digital fortune-telling by solving key user frustrations like irrelevant advice, poor UX/UI, and unclear pricing, while also addressing privacy concerns and the need for reassurance and entertainment for a new generation. My central role as wireframe and prototype designer involved crafting an exceptionally engaging and intuitive UX/UI within a limited timeframe for this complex vision.",
+  "solution": "an intuitive digital fortune-telling application prototype, crafted through comprehensive UX/UI research. Designed to provide accessible guidance and comfort, it directly resolves issues like irrelevant advice and unclear pricing. MyMu offers diverse reading types, robust astrologer search/review, and seamless appointment/payment integration. The platform also empowers astrologers with tools for verified expertise display, flexible scheduling, and enhanced visibility, all within a private, engaging, and user-friendly experience for all users.",
+  "comingSoon": false
+}

@@ -1,0 +1,50 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+@plugin "@midudev/tailwind-animations";
+@layer theme, base, components, utilities;
+@variant dark (&:where(.dark, .dark *));
+
+@layer base {
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Prata&display=swap');
+
+	body {
+		@apply m-0 box-border p-0 scheme-light dark:scheme-dark selection:text-emerald-200 selection:bg-emerald-800;
+	}
+
+	html {
+		scrollbar-color: var(--color-background) var(--color-foreground);
+	}
+
+	.dark {
+		--color-background: #08083a;
+		--color-foreground: #f1e8df;
+	}
+
+	.light {
+		--color-background: #f1e8df;
+		--color-foreground: #08083a;
+	}
+
+	/* ...existing code... */
+	.animate-delay-400 {
+		animation-delay: 400ms !important;
+	}
+
+	.animate-delay-600 {
+		animation-delay: 600ms !important;
+	}
+
+	.custom-prose {
+		@apply prose text-foreground prose-headings:text-foreground prose-strong:text-foreground prose-li:marker:text-foreground prose-hr:border-foreground max-w-[1200px] px-5;
+	}
+}
+
+@theme {
+	--color-background: #0c0c54;
+	--color-foreground: #f1e8df;
+
+	--font-prata: 'Prata', serif;
+	--font-mont: 'Montserrat', sans-serif;
+	--font-japan: 'Noto Sans JP', sans-serif;
+}
