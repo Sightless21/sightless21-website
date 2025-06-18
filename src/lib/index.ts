@@ -68,8 +68,12 @@ export function dynamicFontSize(lang: Language, variant: FontSizeVariant = 'defa
 		},
 		body: {
 			en: 'text-base md:text-lg',
-			ja: 'text-sm md:text-base'
+			ja: 'text-[6vw] sm:text-[12vw] md:text-[10vw] lg:text-[6vw] '
 		},
+		name: {
+            en: 'text-3xl sm:text-5xl md:text-7xl lg:text-10xl',
+            ja: 'text-3xl sm:text-4xl md:text-5xl',
+        },
 		default: {
 			en: 'text-base',
 			ja: 'text-base'

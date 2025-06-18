@@ -1,5 +1,5 @@
 export type Language = 'en' | 'ja';
-export type FontSizeVariant = 'default' | 'nav' | 'nameproject' | 'body' | 'blog';
+export type FontSizeVariant = 'default' | 'nav' | 'nameproject' | 'body' | 'blog' | 'name';
 
 export interface ProjectMetadata {
 	title?: string;

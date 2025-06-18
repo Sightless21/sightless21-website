@@ -9,7 +9,7 @@
 	} = $props();
 </script>
 
-<header class="3xl:bottom-20 sticky bottom-10 z-10 flex max-w-[650px] flex-1 flex-col self-end">
+<header class="3xl:bottom-10 sticky bottom-10 z-10 flex max-w-[650px] flex-1 flex-col self-end">
 	{#if hoveredCollectionThumbnail}
 		<img
 			width={500}
@@ -21,13 +21,13 @@
 	{:else}
 		<div class="bg-background flex w-full items-center justify-center md:hidden"></div>
 	{/if}
-	<div class="space-y-3">
+	<div class="space-y-2">
 		<h1
 			class="uppercase animate-fade-in-down text-foreground animate-delay-500 text-6xl font-semibold tracking-widest"
 		>
 			{m[`${page}.h1`]()}
 		</h1>
-		<p class="animate-fade-in-down mb-10 text-foreground animate-delay-600 text-sm">
+		<p class="animate-fade-in-down text-foreground animate-delay-600 text-sm">
 			{m[`${page}.description`]()}
 		</p>
 	</div>
