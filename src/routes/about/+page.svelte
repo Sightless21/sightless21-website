@@ -67,10 +67,10 @@
 				</h2>
 			</BoxReveal>
 
-			<p class="font-prata mt-4 max-w-xl px-2 text-sm sm:px-0 sm:text-base md:text-lg">
+			<p class="font-mont mt-4 max-w-xl px-2 text-sm sm:px-0 sm:text-base md:text-lg">
 				{m['heading_description']()}
 			</p>
-
+			
 			<div class="mt-10 flex justify-center sm:mt-16 md:mt-20">
 				<img
 					src="/image/getstudentimage.jpeg"
