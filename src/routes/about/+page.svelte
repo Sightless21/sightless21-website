@@ -41,7 +41,7 @@
 	link={`/${locale}`}
 >
 	<main
-		class="text-foreground relative z-10 flex w-full flex-col items-center justify-around gap-8 px-4 md:gap-8 md:px-0 lg:gap-20 mb-20"
+		class="text-foreground relative z-10 mb-20 flex w-full flex-col items-center justify-around gap-8 px-4 md:gap-8 md:px-0 lg:gap-20"
 	>
 		<BlurIn
 			word={m['about']()}
@@ -57,7 +57,7 @@
 			<GradualSpacing
 				class={`text-foreground dark:text-foreground leading-tight 
            font-bold tracking-[-0.08em] ${dynamicFontSize(locale, 'name')}
-           ${dynamicFont(locale)}`}
+           font-mont`}
 				words={`${m.heading_name()}`}
 			/>
 

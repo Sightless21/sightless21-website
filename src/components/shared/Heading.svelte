@@ -16,10 +16,10 @@
 			height={500}
 			src={hoveredCollectionThumbnail}
 			alt={hoveredCollectionTitle || 'Project thumbnail'}
-			class="fade-in w-fullobject-cover hidden aspect-square p-2 opacity-0 md:block "
+			class="fade-in w-fullobject-cover hidden aspect-square p-2 opacity-0 md:block rounded-2xl shadow mb-7"
 		/>
 	{:else}
-		<div class="bg-background flex w-full items-center justify-center md:hidden"></div>
+		<div></div>
 	{/if}
 	<div class="space-y-2">
 		<h1

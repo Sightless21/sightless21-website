@@ -14,7 +14,7 @@
 >
 	<main
 		id="page-main"
-		class="text-background bg-background relative z-10 flex w-screen flex-col min-h-screen items-start justify-start gap-10 px-10 md:mt-0 md:flex-row md:gap-32 md:px-24"
+		class="text-background bg-background relative z-10 flex w-screen flex-col min-h-screen items-start justify-start gap-10 px-8 md:mt-0 md:flex-row md:gap-32 md:px-24"
 	>
 		{@render children()}
 	</main>
