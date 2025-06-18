@@ -16,7 +16,7 @@ export const socialMedia = [
 export const navlists = {
 	en: [
 		{
-			label: 'Projects',
+			label: 'Project',
 			route: '/en/projects'
 		},
 		{
