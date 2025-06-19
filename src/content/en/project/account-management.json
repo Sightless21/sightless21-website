@@ -1,5 +1,5 @@
 {
-  "title": "Account Management",
+  "title": "CoreDesk",
   "date": "2025-03-15",
   "excerpt": "A secure internal web platform developed with Next.js, MongoDB, Prisma, and Shadcn. It centralizes applicant tracking, Kanban project management, and expense reimbursement, reducing HR's operational time by 35% with superior UI/UX and robust security.",
   "thumbnail": "/projects/accmanagement1.png",
