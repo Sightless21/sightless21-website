@@ -2,6 +2,7 @@
 	import IndividualPageLayout from '../../../layouts/IndividualPageLayout.svelte';
 	import Body from '../../../components/project/Body.svelte';
 	import { getBackLink } from '$lib/utils/linkHelper';
+	import { m } from '$lib/paraglide/messages';
 
 	/**
 	 * @type {import('./$types').PageData} data - Data passed from +page.js.
@@ -41,7 +42,7 @@
 </script>
 
 <svelte:head>
-	<title>{project.title} - Project Detail</title>
+	<title>{project.title} - {m['project']()}</title>
 	<meta name="description" content={project.excerpt} />
 </svelte:head>
 <IndividualPageLayout label="projects" link={backLink} data={project} className="" ld="">

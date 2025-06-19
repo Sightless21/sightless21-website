@@ -28,7 +28,7 @@
 </script>
 
 <svelte:head>
-	<title>Sightless21: PROJECT</title>
+	<title>Sightless21: {m['project']()}</title>
 </svelte:head>
 <PageLayout
 	description="Explore a compilation of my finest endeavors spanning Web Design and Development. In a dynamic digital landscape"

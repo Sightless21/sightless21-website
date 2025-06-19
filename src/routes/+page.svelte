@@ -10,7 +10,7 @@
 </script>
 
 <svelte:head>
-	<title>Sightless21: HOME</title>
+	<title>Sightless21</title>
 </svelte:head>
 <Layout
 	description="Cuban-born and self-taught, I bring a unique blend of passion and proficiency to web development and design"

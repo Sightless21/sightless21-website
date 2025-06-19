@@ -29,7 +29,7 @@
 </script>
 
 <svelte:head>
-	<title>Sightless21: BLOG</title>
+	<title>Sightless21: {m['blog']()}</title>
 </svelte:head>
 
 <PageLayout

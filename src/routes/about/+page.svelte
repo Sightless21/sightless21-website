@@ -33,6 +33,9 @@
 	const locale = getLocale() || 'en';
 </script>
 
+<svelte:head>
+	<title>Sightless21: {m['about']()}</title>
+</svelte:head>
 <PageLayout
 	description="Contact page for my online web development business portfolio with my contact information"
 	title="Phanupong - About"
