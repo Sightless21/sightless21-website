@@ -48,7 +48,7 @@
 	>
 		<BlurIn
 			word={m['about']()}
-			class={`text-background dark:text-foreground 
+			class={`text-foreground
                    font-prata mt-10 text-[10vw] font-bold sm:text-[12vw] md:mt-20 md:text-[7vw] 
                    lg:text-[6vw]
                    ${dynamicFont(locale)}`}
@@ -70,7 +70,7 @@
 				</h2>
 			</BoxReveal>
 
-			<p class="font-mont mt-4 max-w-xl px-2 text-sm sm:px-0 sm:text-base md:text-lg">
+			<p class="font-mont mt-4 max-w-xl px-2 text-sm sm:px-0 sm:text-base md:text-lg whitespace-pre-wrap">
 				{m['heading_description']()}
 			</p>
 			
