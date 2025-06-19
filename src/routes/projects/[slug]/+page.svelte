@@ -42,7 +42,7 @@
 </script>
 
 <svelte:head>
-	<title>{project.title} - {m['project']()}</title>
+	<title>{project.title} - {m['project.h1']()}</title>
 	<meta name="description" content={project.excerpt} />
 </svelte:head>
 <IndividualPageLayout label="projects" link={backLink} data={project} className="" ld="">
