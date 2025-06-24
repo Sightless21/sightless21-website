@@ -5,8 +5,14 @@
 	"heading_name": "Phanupong Poungbaidee",
 	"heading_position": "Junior Full-Stack Developer",
 	"heading_description": "Hello! I'm a passionate developer with a love for creating beautiful, functional applications, solve problem for business. \n\nMy journey into coding began out of curiosity for how digital experiences are crafted. I aspire to be Full-stack Developer and UX/UI Designer. I'm particularly interested in user experience design , performance optimization, and simplicity. \n\nOutside of coding, I love to play video games and make music.",
-	"blog": "Blog",
-	"contact": "Contact",
+	"blog": {
+        "h1" : "Blog",
+        "description": "Welcome to my blog. Here, I share my development journey and learnings. I write about technical insights, project progress, and daily experiences. I'm excited to share knowledge with readers and build a community."
+    },
+	"contact": {
+        "h1": "Contact",
+        "description": "Feel free to reach out to me for any inquiries, collaborations, or just to say hello! I'm always open to connecting with fellow developers and enthusiasts."
+    },
 	"about": "About",
 	"error": "Page not Found :(",
 	"sorry": "Sorry Content not available",

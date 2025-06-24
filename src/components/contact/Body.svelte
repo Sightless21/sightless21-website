@@ -12,7 +12,7 @@
         <h1
             class="font-prata animate-fade-in-down animate-delay-300 text-[10vw] leading-[0.95em] uppercase sm:text-[8vw] md:text-[7vw] lg:text-[6vw]"
         >
-            {m[`contact.heading`]()}
+            {m[`contact.h1`]()}
         </h1>
         <h2 class="animate-fade-in-down animate-delay-400 block text-base sm:text-lg md:text-xl">
             {m[`contact.description`]()}

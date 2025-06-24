@@ -12,7 +12,7 @@
 </script>
 
 <svelte:head>
-	<title>{metadata.title} - {m['blog']()}</title>
+	<title>{metadata.title} - {m['blog.h1']()}</title>
     <meta name="description" content={metadata.excerpt} />
 </svelte:head>
 
