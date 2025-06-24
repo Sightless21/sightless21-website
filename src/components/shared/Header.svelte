@@ -30,8 +30,8 @@
 	class={[
 		'animate-delay-300 animate-fade-in relative flex h-[70vh] w-full justify-center mt-10 overflow-hidden text-center',
 		{
-			'md: h-[70vh]': variant === 'projects',
-			'h-[600px]': variant !== 'projects'
+			'md: h-[70vh]': variant === 'project',
+			'h-[600px]': variant !== 'project'
 		}
 	]}
 	style={`background-color: ${'colors' in data ? data.colors[0] : 'transparent'};`}
@@ -41,8 +41,8 @@
 		class={[
 			'font-prata animate-fade-in-down animate-delay-400 z-20 self-end text-balance uppercase',
 			{
-				'text-[11vw]': variant === 'projects',
-				'text-[7vw] leading-[7vw]': variant !== 'projects'
+				'text-[11vw]': variant === 'project',
+				'text-[7vw] leading-[7vw]': variant !== 'project'
 			}
 		]}
 		style={`color: ${'colors' in data ? data.colors[1] : 'inherit'};`}
