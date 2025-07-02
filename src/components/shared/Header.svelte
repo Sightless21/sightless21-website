@@ -50,7 +50,7 @@
 		{data.title}
 	</h1>
 
-	{#if variant !== 'projects'}
+	{#if variant !== 'project'}
 		<div class="bg-background absolute inset-0 z-10 h-full w-full opacity-20"></div>
 		<img
 			src={data.image}
