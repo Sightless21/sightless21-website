@@ -3,7 +3,7 @@
 	import Subheading from './Subheading.svelte';
 	import UrlWidget from './UrlWidget.svelte';
 
-	const { project , lang} = $props();
+	const { project , lang } = $props();
 </script>
 
 <section class="w-full space-y-5 px-5 md:space-y-10 md:px-0">

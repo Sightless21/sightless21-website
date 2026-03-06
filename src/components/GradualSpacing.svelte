@@ -12,7 +12,6 @@
 		hidden: { opacity: 0, x: -20 },
 		visible: { opacity: 1, x: 0 }
 	};
-	// เราจะแยกคำเหมือนเดิม เพื่อจัดการช่องว่างระหว่างคำ
 	let wordsArray = words.split(' ');
 </script>
 
@@ -28,7 +27,6 @@
 						variants={framerProps}
 						transition={{
 							duration: duration,
-							// คำนวณ delay โดยรวมจาก index ของคำและตัวอักษร
 							delay: wordIndex * 0.1 + charIndex * delayMultiple
 						}}
 						let:motion

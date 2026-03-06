@@ -1,5 +1,4 @@
 <script lang="ts">
-    // @ts-nocheck
     import { m } from '$lib/paraglide/messages';
     import { contactItems } from '../../constants';
     const { lang } = $props();

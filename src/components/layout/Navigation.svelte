@@ -3,8 +3,9 @@
 	import { cn, getBorderColor, getHoverBorderColor } from '$lib';
 	import { setLocale } from '$lib/paraglide/runtime';
 	const { link, label, className } = $props();
-	const border = getBorderColor(className);
-	const hoverAnimation = getHoverBorderColor(className);
+
+	const border = $derived(getBorderColor(className));
+	const hoverAnimation = $derived(getHoverBorderColor(className));
 </script>
 
 <div

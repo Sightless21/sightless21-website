@@ -1,22 +1,21 @@
 <script>
 	const { project } = $props();
-	const { colors, repoLink, liveLink } = project;
 </script>
 
-{#if repoLink || liveLink}
+{#if project.repoLink || project.liveLink}
 	<div
 		id="widget"
 		class="animate-fade-in-down animate-delay-900 fixed right-7 bottom-7 flex flex-col gap-1 space-y-2 p-3 text-left md:right-10 md:bottom-10 md:p-5"
-		style={`--bg-color: ${colors[0]}; --text-color: ${colors[1]}; background-color: var(--bg-color); color: var(--text-color);`}
+		style={`--bg-color: ${project.colors[0]}; --text-color: ${project.colors[1]}; background-color: var(--bg-color); color: var(--text-color);`}
 	>
-		{#if repoLink}
-			<a href={repoLink} target="_blank" class="hover-underline-animation-widget text-sm md:text-base">
+		{#if project.repoLink}
+			<a href={project.repoLink} target="_blank" class="hover-underline-animation-widget text-sm md:text-base">
 				CODE
 			</a>
 		{/if}
 		
-		{#if liveLink}
-			<a href={liveLink} target="_blank" class="hover-underline-animation-widget text-sm md:text-base">
+		{#if project.liveLink}
+			<a href={project.liveLink} target="_blank" class="hover-underline-animation-widget text-sm md:text-base">
 				LIVE
 			</a>
 		{/if}
