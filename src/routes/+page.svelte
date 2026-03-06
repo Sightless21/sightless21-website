@@ -13,7 +13,7 @@
 	<title>Sightless21</title>
 </svelte:head>
 <Layout
-	description="Cuban-born and self-taught, I bring a unique blend of passion and proficiency to web development and design"
+	description="Sakolnakorn-born but living bangkok  and self-taught, I bring a unique blend of passion and proficiency to web development and design"
 	title="Phanupong Poungbaidee"
 	className="text-foreground font-montserrat"
 >
