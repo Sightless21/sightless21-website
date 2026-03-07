@@ -28,8 +28,8 @@
 		theme.update((current) => (current === 'dark' ? 'light' : 'dark'));
 	}
 	const { link, label, className } = $props();
-	const border = getBorderColor(className);
-	const hover = getHoverBorderColor(className);
+	const border = $derived(getBorderColor(className));
+	const hover = $derived(getHoverBorderColor(className));
 </script>
 
 {#if visible}

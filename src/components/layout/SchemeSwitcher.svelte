@@ -2,8 +2,8 @@
 	import { cn, getBorderColor, getHoverBorderColor, theme } from '$lib';
 	import { onMount } from 'svelte';
 	const { className } = $props();
-	const border = getBorderColor(className);
-	const hover = getHoverBorderColor(className);
+	const border = $derived(getBorderColor(className));
+	const hover = $derived(getHoverBorderColor(className));
 
 	onMount(() => {
     const savedTheme = localStorage.getItem('theme') as 'light' | 'dark' | null;
