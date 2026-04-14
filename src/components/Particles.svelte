@@ -1,4 +1,5 @@
 <script lang="ts">
+	import type { Circle } from 'lucide-svelte';
 	import { onMount } from 'svelte';
 
 	export let className: string = '';
@@ -81,7 +82,7 @@
 		}
 	}
 
-	function drawCircle(circle, update = false) {
+	function drawCircle(circle: Circle, update = false) {
 		if (context) {
 			const { x, y, translateX, translateY, size, alpha } = circle;
 			context.translate(translateX, translateY);
@@ -105,7 +106,7 @@
 		}
 	}
 
-	function remapValue(value, start1, end1, start2, end2) {
+	function remapValue(value: number, start1: number, end1: number, start2: number, end2: number) {
 		let remapped = ((value - start1) * (end2 - start2)) / (end1 - start1) + start2;
 		return remapped > 0 ? remapped : 0;
 	}

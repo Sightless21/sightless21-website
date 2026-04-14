@@ -45,7 +45,7 @@
 	<title>{project.title} - {m['project.h1']()}</title>
 	<meta name="description" content={project.excerpt} />
 </svelte:head>
-<IndividualPageLayout label="project" link={backLink} data={project} className="" ld="">
+<IndividualPageLayout label="project" link={backLink} data={project} className="">
 	<Body {project} lang={locale} />
 </IndividualPageLayout>
 
