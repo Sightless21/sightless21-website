@@ -22,7 +22,7 @@ export async function load({ params }) {
         if (!project) {
             console.warn(`[project slug page.js] Project with slug "${slug}" not found.`);
             // If no project is found, throw a 404 error.
-            throw error(404, 'Project not found');
+            error(404, 'Project not found');
         }
 
         // console.log(`[project slug page.js] Found project: "${project.title}"`);

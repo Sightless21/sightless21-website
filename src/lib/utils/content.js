@@ -137,6 +137,6 @@ export async function getContents(locale, contentType) {
 			locale,
 			contentType
 		});
-		throw error(500, `Could not load ${contentType} data.`);
+		error(500, `Could not load ${contentType} data.`);
 	}
 }
