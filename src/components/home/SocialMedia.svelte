@@ -4,7 +4,7 @@
 <div class='animate-fade-in-down animate-delay-500 w-fit'>
   <hr class='border-px border-foreground my-3 w-full' />
   <ul class='mt-5 flex gap-5 px-2'>
-    {#each socialMedia as socialMediaItem}
+    {#each socialMedia as socialMediaItem , index (index)}
       <li class='list-none' title={socialMediaItem.label}>
         <a
           href={socialMediaItem.href}

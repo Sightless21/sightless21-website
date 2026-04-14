@@ -1,6 +1,6 @@
 <script>
 	import Layout from './Layout.svelte';
-	const { title, className, link, label, description, image, ld, children } = $props();
+	const { title, className, link, label, description, children } = $props();
 </script>
 
 <Layout
@@ -9,8 +9,6 @@
 	className={`${className}`}
 	{link}
 	{label}
-	{image}
-	{ld}
 >
 	<main
 		id="page-main"

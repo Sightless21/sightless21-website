@@ -3,31 +3,10 @@
 	import PageLayout from '../../layouts/PageLayout.svelte';
 	import BoxReveal from '../../components/BoxReveal.svelte';
 	import GradualSpacing from '../../components/GradualSpacing.svelte';
-	import TextReveal from '../../components/TextReveal.svelte'; // Not used in this snippet, but kept for context.
 	import BlurIn from '../../components/BlurIn.svelte';
-
-	// Assuming svelte-vertical-timeline is not directly impacting the layout in this section
-	// but its imports are kept for completeness if used elsewhere in PageLayout.
-	import {
-		Timeline,
-		TimelineItem,
-		TimelineSeparator,
-		TimelineDot,
-		TimelineConnector,
-		TimelineContent,
-		TimelineOppositeContent
-	} from 'svelte-vertical-timeline';
-
-	const options = [
-		{ title: 'Eat', time: '09:30 am' },
-		{ title: 'Sleep', time: '10:00 am' },
-		{ title: 'Code', time: '11:00 am' },
-		{ title: 'Eat', time: '01:00 pm' }
-	];
 
 	import { m } from '$lib/paraglide/messages';
 	import { getLocale } from '$lib/paraglide/runtime';
-	import { fade } from 'svelte/transition'; // Not used in this snippet, but kept for context.
 	import { dynamicFont, dynamicFontSize } from '$lib';
 
 	const locale = getLocale() || 'en';

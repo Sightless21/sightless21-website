@@ -55,7 +55,7 @@
     >
       <div
         style="background:{boxColor}"
-        class="absolute top-[4px] bottom-[4px] left-0 right-0 z-40 bg-foreground"
+        class="absolute top-1 bottom-1 left-0 right-0 z-40 bg-foreground"
         use:motion
       ></div>
     </Motion>

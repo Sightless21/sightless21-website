@@ -1,4 +1,5 @@
 <script>
+	import { resolve } from '$app/paths';
 	const { techStack, lang } = $props();
 </script>
 
@@ -7,7 +8,7 @@
 	<p class="text-sm md:text-base">
 		{techStack.info}
 	</p>
-	<a href={techStack.link} target="_blank" class="hover-underline-animation-reverse text-sm font-bold">
+	<a href={resolve(techStack.link)} target="_blank" class="hover-underline-animation-reverse text-sm font-bold">
 		{lang === 'ja' ? '詳細情報' : 'More Info'}
 	</a>
 </li>

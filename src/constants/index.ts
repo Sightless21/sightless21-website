@@ -17,37 +17,37 @@ export const navlists = {
 	en: [
 		{
 			label: 'Project',
-			route: '/en/projects'
+			route: '/projects'
 		},
 		{
 			label: 'About',
-			route: '/en/about'
+			route: '/about'
 		},
 		{
 			label: 'Contact',
-			route: '/en/contact'
+			route: '/contact'
 		},
 		{
 			label: 'Blog',
-			route: '/en/blog'
+			route: '/blog'
 		}
 	],
 	ja: [
 		{
 			label: 'プロジェクト',
-			route: '/ja/projects'
+			route: '/projects'
 		},
 		{
 			label: 'について',
-			route: '/ja/about'
+			route: '/about'
 		},
 		{
 			label: '接触',
-			route: '/ja/contact'
+			route: '/contact'
 		},
 		{
 			label: 'ブログ',
-			route: '/ja/blog'
+			route: '/blog'
 		}
 	]
 };

@@ -36,7 +36,7 @@
 	</div>
 
 	<ul class="my-8 mb-20 flex flex-col justify-center gap-4 md:flex-row">
-		{#each project.techStack as techStack}
+		{#each project.techStack as techStack (techStack.title)}
 			<ProjectTechStackCard {techStack} {lang} />
 		{/each}
 	</ul>

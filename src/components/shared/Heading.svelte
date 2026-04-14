@@ -3,13 +3,12 @@
 	import { m } from '$lib/paraglide/messages.js';
 	const {
 		page = '',
-		collections,
 		hoveredCollectionThumbnail = null,
 		hoveredCollectionTitle = null
 	} = $props();
 </script>
 
-<header class="3xl:bottom-10 sticky bottom-10 z-10 flex max-w-[650px] flex-1 flex-col self-end">
+<header class="3xl:bottom-10 sticky bottom-10 z-10 flex max-w-162.5 flex-1 flex-col self-end">
 	{#if hoveredCollectionThumbnail}
 		<img
 			width={500}

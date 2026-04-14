@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { Motion, useTransform } from 'svelte-motion';
-	export let progress: any = 0;
+	import { Motion, useTransform, type MotionValue } from 'svelte-motion';
+	export let progress: MotionValue<number>;
 	export let range: [number, number];
 	export let wordsLen = 0;
 	let rangeValue1 = range[0] / wordsLen;

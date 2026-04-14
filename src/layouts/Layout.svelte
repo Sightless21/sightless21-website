@@ -1,7 +1,7 @@
 <script>
 	import SideNavbar from '../components/layout/SideNavbar.svelte';
 	import SideNavbarMobile from '../components/layout/SideNavbarMobile.svelte';
-	const { title, className, link, label, description, image, ld, children } = $props();
+	const { title, className, link, label, description, children } = $props();
 </script>
 
 <svelte:head>

@@ -36,7 +36,7 @@
 	}
 
 	.custom-prose {
-		@apply prose text-foreground prose-headings:text-foreground prose-strong:text-foreground prose-li:marker:text-foreground prose-hr:border-foreground max-w-[1200px] px-5;
+		@apply prose text-foreground prose-headings:text-foreground prose-strong:text-foreground prose-li:marker:text-foreground prose-hr:border-foreground max-w-300 px-5;
 	}
 }
 

@@ -1,12 +1,9 @@
 <script lang="ts">
-	// @ts-nocheck
-	import { page } from '$app/state';
 	import { getLocale } from '$lib/paraglide/runtime';
 	import PageLayout from '../../../layouts/PageLayout.svelte';
 	import { m } from '$lib/paraglide/messages';
 	import InteractiveHoverBt from '../../../components/InteractiveHoverBT.svelte';
 	import { browser } from '$app/environment';
-	import { base } from '$app/paths';
 	import SpinningText from '../../../components/SpinningText.svelte';
 	const locale = getLocale() || 'en';
 

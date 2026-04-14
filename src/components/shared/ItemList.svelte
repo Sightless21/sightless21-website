@@ -1,15 +1,13 @@
-<script>
+<script lang="ts">
 	import { createEventDispatcher } from 'svelte';
 	import { dynamicFont, dynamicFontSize, dynamicLeading } from '$lib';
-	// @ts-ignore
 	const { collections, lang , collectionName } = $props();
 
 	// สร้าง event dispatcher
 	const dispatch = createEventDispatcher();
 
 	// ฟังก์ชันเมื่อเมาส์เข้าสู่ element
-	// @ts-ignore
-	function handleMouseEnter(project) {
+	function handleMouseEnter(project: { thumbnail: string | null; title: string }) {
 		dispatch('ColloctionHover', {
 			thumbnail: project.thumbnail, // ส่ง thumbnail ของโปรเจกต์ที่ hover
 			title: project.title // ส่ง title ของโปรเจกต์ที่ hover
@@ -23,18 +21,20 @@
 			title: null
 		});
 	}
+
+
 </script>
 
 <section class={`${dynamicFont(lang)} flex-1 text-balance md:py-16 mb-10`}>
 	<ul role="navigation" class="space-y-10">
-		{#each collections as collection, index}
+		{#each collections as collection, index (collection.href)}
 			<li
 				class={`animate-fade-in-down text-foreground [&>a]:block [&>a]:cursor-pointer ${dynamicFontSize(lang, collectionName )}`}
 				style="animation-delay: {index * 100}ms"
 			>
 				<a
-					href={`${collection.href}`}
-					class={`block leading-[0.95em] text-balance uppercase transition-all duration-500 ease-out hover:translate-x-10 hover:-skew-x-12 `}
+					href={collection.href}
+					class={`block ${dynamicLeading(lang)} text-balance uppercase transition-all duration-500 ease-out hover:translate-x-10 hover:-skew-x-12 `}
 					onmouseenter={() => handleMouseEnter(collection)}
 					onmouseleave={handleMouseLeave}
 				>

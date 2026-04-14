@@ -2,6 +2,7 @@
 	import { goto } from '$app/navigation';
 	import { cn, getBorderColor, getHoverBorderColor } from '$lib';
 	import { setLocale } from '$lib/paraglide/runtime';
+	import { resolve } from '$app/paths';
 	const { link, label, className } = $props();
 
 	const border = $derived(getBorderColor(className));
@@ -20,7 +21,7 @@
 			>Japanese</button
 		>
 	{:else}
-		<a href={link} class={cn(hoverAnimation, 'capitalize')} onclick={() => goto(link)}>
+		<a href={resolve(link)} class={cn(hoverAnimation, 'capitalize')} onclick={() => goto(resolve(link))}>
 			{label}
 		</a>
 	{/if}

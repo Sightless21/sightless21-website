@@ -31,7 +31,7 @@
     <h1
       class={cn(
         className,
-        "text-center font-bold tracking-[-0.02em] drop-shadow-sm md:leading-[5rem]"
+        "text-center font-bold tracking-[-0.02em] drop-shadow-sm md:leading-20"
       )}
       use:motion
     >

@@ -9,14 +9,14 @@ export async function load() {
     // Define the content type to load, which corresponds to the folder name under src/content/{locale}/.
     const contentType = 'project';
 
-    console.log(`[project +page.server.js] Calling getContents with locale: ${locale}, contentType: ${contentType}`);
+    // console.log(`[project +page.server.js] Calling getContents with locale: ${locale}, contentType: ${contentType}`);
     // Fetch contents using your utility function.
     const projects = await getContents(locale, contentType);
-    console.log(`[project +page.server.js] Received ${projects.length} projects.`);
+    // console.log(`[project +page.server.js] Received ${projects.length} projects.`);
 
     // Optional: Handle case where no projects are found.
     if (projects.length === 0) {
-        console.warn(`[project +page.server.js] No projects found for locale: ${locale}`);
+        // console.warn(`[project +page.server.js] No projects found for locale: ${locale}`);
         // Consider if you want to throw an error (e.g., error(404, 'Not Found'))
         // or just return an empty array and handle it gracefully in the Svelte component.
     }

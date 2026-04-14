@@ -3,7 +3,7 @@
 	import { m } from '$lib/paraglide/messages';
 </script>
 
-<header class="max-w-[500px] space-y-3 self-end text-pretty" id="info">
+<header class="max-w-125 space-y-3 self-end text-pretty" id="info">
 	<h1 class="animate-fade-in-down animate-delay-700 text-3xl font-semibold tracking-widest">
 		{m.heading_name()}
 	</h1>
@@ -12,4 +12,7 @@
 		{m.heading_description()}
 	</p>
 	<SocialMedia />
+	<a href="https://www.codewars.com/users/Sightless21">
+		<img src="https://www.codewars.com/users/Sightless21/badges/large" alt="badge" class="animate-fade-in-down animate-delay-500" />
+	</a>
 </header>

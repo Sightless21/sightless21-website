@@ -8,7 +8,7 @@
 >
 	<strong class="flex-1">
 		<a
-			href={`https://www.linkedin.com/in/phanupong-poungbaidee-2a6a78322/`}
+			href="https://www.linkedin.com/in/phanupong-poungbaidee-2a6a78322/"
 			target="_blank"
 			class="transition duration-200 ease-out hover:text-gray-700 hover:underline"
 			rel="nofollow noopener noreferrer">{metadata.author}</a

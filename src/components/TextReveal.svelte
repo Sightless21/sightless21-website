@@ -2,23 +2,24 @@
 	import { cn } from '$lib';
 	import { useElementScroll } from 'svelte-motion';
 	import Word from './Word.svelte';
-	let className: any = '';
+	let className: string = '';
 	export { className as class };
 	export let text = 'Hello Everyone Svelte is Fun';
 	let words = text.split(' ');
-	let val = useElementScroll({ ref: null });
+	let ref: { current: HTMLElement | null } = { current: null };
+	let val = useElementScroll(ref);
 	let icode = val.scrollYProgress;
 </script>
 
-<div bind:this={val.ref} class="scroller">
+<div bind:this={ref.current} class="scroller">
 	<div class={cn('inner relative z-10 ', className)}>
 		<div
-			class="sticky top-0 mx-auto flex h-[30%] max-w-4xl items-center bg-transparent px-[1rem] py-[5rem]"
+			class="sticky top-0 mx-auto flex h-[30%] max-w-4xl items-center bg-transparent px-4 py-20"
 		>
 			<p
 				class="flex flex-wrap p-5 text-2xl font-bold text-black/20 md:p-8 md:text-3xl lg:p-10 lg:text-4xl xl:text-5xl dark:text-white/20"
 			>
-				{#each words as item, i}
+				{#each words as item, i (i)}
 					<Word progress={icode} range={[i, i + 1]} wordsLen={words.length}>
 						{item}
 					</Word>

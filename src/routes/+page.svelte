@@ -18,7 +18,7 @@
 	className="text-foreground font-montserrat"
 >
 	<main
-		class="text-foreground bg-background min-h-screen w-screen overflow-hidden p-10 md:mt-0 md:h-screen md:bg-gradient-to-b md:p-24"
+		class="text-foreground bg-background min-h-screen w-screen overflow-hidden p-10 md:mt-0 md:h-screen md:bg-linear-to-b md:p-24"
 	>
 		<div
 			class="font-montserrat flex h-full flex-col items-center gap-12 md:mt-0 md:flex-row md:justify-around md:gap-20"

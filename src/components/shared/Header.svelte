@@ -1,5 +1,4 @@
 <script>
-	import { json } from '@sveltejs/kit';
 	import { onMount } from 'svelte';
 
 	const { data, variant = '' } = $props();
@@ -31,7 +30,7 @@
 		'animate-delay-300 animate-fade-in relative flex h-[70vh] w-full justify-center mt-10 overflow-hidden text-center',
 		{
 			'md: h-[70vh]': variant === 'project',
-			'h-[600px]': variant !== 'project'
+			'h-150': variant !== 'project'
 		}
 	]}
 	style={`background-color: ${'colors' in data ? data.colors[0] : 'transparent'};`}

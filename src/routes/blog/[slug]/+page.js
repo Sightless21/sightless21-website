@@ -1,5 +1,6 @@
 // src/routes/blog/[slug]/+page.js
 import { goto } from '$app/navigation';
+import { resolve } from '$app/paths';
 import { getLocale } from '$lib/paraglide/runtime.js';
 import { error } from '@sveltejs/kit';
 
@@ -10,7 +11,7 @@ export async function load({ params }) {
 		const post = await import(`../../../content/${locale}/blog/${slug}.svx`);
 
 		if (post.length === 0) {
-			goto('/')
+			goto(resolve('/'));
 		}
 		return {
 			content: post.default,

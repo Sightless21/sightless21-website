@@ -19,7 +19,7 @@
 	class="spinning-text {className} {reverse ? 'reverse' : ''}"
 	style="--duration: {duration}s; {style}"
 >
-	{#each letters as letter, index}
+	{#each letters as letter, index (index)}
 		<span
 			aria-hidden="true"
 			class="letter"

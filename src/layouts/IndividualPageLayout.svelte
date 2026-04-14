@@ -4,7 +4,7 @@
 	import Layout from './Layout.svelte';
 	import Header from '../components/shared/Header.svelte';
 
-	const { className, link, label, ld, data, children } = $props();
+	const { className, link, label, data, children } = $props();
 
 </script>
 

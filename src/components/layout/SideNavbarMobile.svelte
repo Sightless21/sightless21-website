@@ -3,6 +3,7 @@
 	import { onMount } from 'svelte';
 	import { fly } from 'svelte/transition';
 	import { setLocale } from '$lib/paraglide/runtime';
+	import { resolve } from '$app/paths';
 	let visible = $state(false);
 	onMount(() => {
 		visible = true;
@@ -69,7 +70,7 @@
 					Japanese
 				</button>
 			{:else}
-				<a href={link} class={hover}>
+				<a href={resolve(link)} class={hover}>
 					{label}
 				</a>
 			{/if}

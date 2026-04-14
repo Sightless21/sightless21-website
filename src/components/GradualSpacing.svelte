@@ -2,7 +2,7 @@
 	import { cn } from '$lib';
 	import { AnimatePresence, Motion } from 'svelte-motion';
 
-	let className: any = 'Gradual Spacing';
+	let className: string = '';
 	export { className as class };
 
 	export let words = 'Gradual Spacing';
@@ -17,9 +17,9 @@
 
 <div class="flex flex-nowrap justify-center sm:justify-start">
 	<AnimatePresence let:item list={[{ key: wordsArray }]}>
-		{#each wordsArray as word, wordIndex}
+		{#each wordsArray as word, wordIndex (wordIndex)}
 			<div class="flex" style="display: inline-flex;">
-				{#each word.split('') as char, charIndex}
+				{#each word.split('') as char, charIndex (charIndex)}
 					<Motion
 						initial="hidden"
 						animate="visible"

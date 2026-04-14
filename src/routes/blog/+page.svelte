@@ -7,7 +7,6 @@
 	import InteractiveHoverBt from '../../components/InteractiveHoverBT.svelte';
 	import { browser } from '$app/environment';
 	import { m } from '$lib/paraglide/messages';
-	import { dynamicFont } from '$lib';
 	export let data;
 	const { blogs, locale } = data;
 
