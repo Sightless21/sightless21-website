@@ -1,5 +1,6 @@
 <script>
 	const { project } = $props();
+	import { resolve } from '$app/paths';
 </script>
 
 {#if project.repoLink || project.liveLink}
@@ -9,13 +10,13 @@
 		style={`--bg-color: ${project.colors[0]}; --text-color: ${project.colors[1]}; background-color: var(--bg-color); color: var(--text-color);`}
 	>
 		{#if project.repoLink}
-			<a href={project.repoLink} target="_blank" class="hover-underline-animation-widget text-sm md:text-base">
+			<a href={resolve(project.repoLink)} target="_blank" class="hover-underline-animation-widget text-sm md:text-base">
 				CODE
 			</a>
 		{/if}
 		
 		{#if project.liveLink}
-			<a href={project.liveLink} target="_blank" class="hover-underline-animation-widget text-sm md:text-base">
+			<a href={resolve(project.liveLink)} target="_blank" class="hover-underline-animation-widget text-sm md:text-base">
 				LIVE
 			</a>
 		{/if}

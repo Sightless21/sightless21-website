@@ -16,7 +16,7 @@
 </script>
 
 <div class="flex flex-nowrap justify-center sm:justify-start">
-	<AnimatePresence let:item list={[{ key: wordsArray }]}>
+	<AnimatePresence list={[{ key: wordsArray }]}>
 		{#each wordsArray as word, wordIndex (wordIndex)}
 			<div class="flex" style="display: inline-flex;">
 				{#each word.split('') as char, charIndex (charIndex)}

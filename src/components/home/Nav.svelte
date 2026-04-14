@@ -2,13 +2,12 @@
 	import { navlists } from '../../constants/index.js';
 	import { dynamicFont, dynamicFontSize, dynamicLeading } from '$lib';
 	import { resolve } from '$app/paths';
-	
-	type Route = '/' | '/about' | '/blog' | '/contact' | '/projects';
-	
-	const { lang }: { lang: 'en' | 'ja' } = $props();
-	let lists = $derived(navlists[lang] || navlists.en);
+	import type { Locale } from '../i18n/ui.js';
 
-	// Define animation delay classes
+	const { lang }: { lang: Locale } = $props();
+
+	let lists = $derived(navlists[lang]);
+
 	const delays = [
 		'animate-delay-300',
 		'animate-delay-400',
@@ -18,12 +17,12 @@
 </script>
 
 <ul class={`uppercase ${dynamicFont(lang)}`}>
-	{#each lists as item, index (index)}
+	{#each lists as item , index (item.route)}
 		<li
-			class={`animate-fade-in-up ${delays[index]} [&>a]:block [&>a]:cursor-pointer ${dynamicFontSize(lang,"nav")}`}
+			class={`animate-fade-in-up ${delays[index] ?? ''} [&>a]:block [&>a]:cursor-pointer ${dynamicFontSize(lang,"nav")}`}
 		>
 			<a
-				href={resolve(item.route as Route)}
+				href={resolve(item.route)}
 				aria-label={item.label}
 				class={`${dynamicLeading(lang)} transition-all duration-500 ease-out hover:translate-x-10 hover:-skew-x-12`}
 			>
