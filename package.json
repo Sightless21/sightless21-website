@@ -50,5 +50,89 @@
 		"svelte-inview": "^4.0.4",
 		"svelte-vertical-timeline": "^2.0.0",
 		"tailwind-merge": "^3.3.1"
+	},
+	"exports": {
+		"./package.json": "./package.json",
+		".": {
+			"types": "./package/index.d.ts",
+			"svelte": "./package/index.js",
+			"default": "./package/index.js"
+		},
+		"./paraglide/.gitignore": "./package/paraglide/.gitignore",
+		"./paraglide/.prettierignore": "./package/paraglide/.prettierignore",
+		"./paraglide/README.md": "./package/paraglide/README.md",
+		"./paraglide/messages/en": {
+			"types": "./package/paraglide/messages/en.d.ts",
+			"default": "./package/paraglide/messages/en.js"
+		},
+		"./paraglide/messages/ja": {
+			"types": "./package/paraglide/messages/ja.d.ts",
+			"default": "./package/paraglide/messages/ja.js"
+		},
+		"./paraglide/messages": {
+			"types": "./package/paraglide/messages.d.ts",
+			"default": "./package/paraglide/messages.js"
+		},
+		"./paraglide/registry": {
+			"types": "./package/paraglide/registry.d.ts",
+			"default": "./package/paraglide/registry.js"
+		},
+		"./paraglide/runtime": {
+			"types": "./package/paraglide/runtime.d.ts",
+			"default": "./package/paraglide/runtime.js"
+		},
+		"./paraglide/server": {
+			"types": "./package/paraglide/server.d.ts",
+			"default": "./package/paraglide/server.js"
+		},
+		"./transitions/flyFade": {
+			"types": "./package/transitions/flyFade.d.ts",
+			"default": "./package/transitions/flyFade.js"
+		},
+		"./utils/content": {
+			"types": "./package/utils/content.d.ts",
+			"default": "./package/utils/content.js"
+		},
+		"./utils/linkHelper": {
+			"types": "./package/utils/linkHelper.d.ts",
+			"default": "./package/utils/linkHelper.js"
+		}
+	},
+	"files": [
+		"package"
+	],
+	"typesVersions": {
+		">4.0": {
+			"index.d.ts": [
+				"./package/index.d.ts"
+			],
+			"paraglide/messages/en": [
+				"./package/paraglide/messages/en.d.ts"
+			],
+			"paraglide/messages/ja": [
+				"./package/paraglide/messages/ja.d.ts"
+			],
+			"paraglide/messages": [
+				"./package/paraglide/messages.d.ts"
+			],
+			"paraglide/registry": [
+				"./package/paraglide/registry.d.ts"
+			],
+			"paraglide/runtime": [
+				"./package/paraglide/runtime.d.ts"
+			],
+			"paraglide/server": [
+				"./package/paraglide/server.d.ts"
+			],
+			"transitions/flyFade": [
+				"./package/transitions/flyFade.d.ts"
+			],
+			"utils/content": [
+				"./package/utils/content.d.ts"
+			],
+			"utils/linkHelper": [
+				"./package/utils/linkHelper.d.ts"
+			]
+		}
 	}
 }
