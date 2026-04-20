@@ -53,7 +53,7 @@
 				{m['heading_description']()}
 			</p>
 			
-			<div class="mt-10 flex justify-center sm:mt-16 md:mt-20">
+			<!-- <div class="mt-10 flex justify-center sm:mt-16 md:mt-20">
 				<img
 					src="/image/getstudentimage.jpeg"
 					alt="Phanupong"
@@ -61,7 +61,7 @@
 					height="160"
 					class="h-40 w-40 rounded-full object-cover sm:h-48 sm:w-48 md:h-56 md:w-56"
 				/>
-			</div>
+			</div> -->
 		</div>
 	</main>
 </PageLayout>
